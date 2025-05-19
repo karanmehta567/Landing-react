@@ -6,8 +6,8 @@ import dark from '../../assets/icons8-do-not-disturb-ios-50.png'
 import { useThemeStore } from '../../store/UseTheme'
 const navItems=[
     {title:'Home',href:'#'},
-    {title:'Services',href:'#service'},
-    {title:'About Us',href:'#about'},
+    {title:'Services',href:'#services'},
+    {title:'About Us',href:'#about-us'},
     {title:'Features',href:'#feature'}
 ]
 function Navbar() {
