@@ -1,6 +1,8 @@
+import { Footer } from './components/elements/Footer'
 import { Layout } from './components/Layout'
 import { AboutUs } from './components/sections/AboutUs'
 import { Hero } from './components/sections/hero'
+import { Pricing } from './components/sections/Pricing'
 import { Services } from './components/sections/Services'
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
         <Hero/>
         <Services/>
         <AboutUs/>
+        <Pricing/>
+        <Footer/>
     </Layout>
   )
 }
