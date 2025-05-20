@@ -3,7 +3,6 @@ import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
 import EmailIcon from '@mui/icons-material/Email';
 import { Number } from "./Number";
-import { Services } from "./Services";
 export const Hero=()=>{
     return (
         <section className="relative pt-32 lg:pt-36">
